@@ -6,7 +6,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Run Extension",
+			"name": "Run Inline Chat Extension",
 			"type": "extensionHost",
 			"request": "launch",
 			"args": [
@@ -15,7 +15,8 @@
 			"outFiles": [
 				"${workspaceFolder}/out/**/*.js"
 			],
-			"preLaunchTask": "${defaultBuildTask}"
+			// "preLaunchTask": "${defaultBuildTask}",
+			"preLaunchTask": "npm: compile"
 		}
 	]
 }

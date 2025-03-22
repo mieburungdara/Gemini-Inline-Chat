@@ -15,6 +15,13 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"type": "npm",
+			"script": "pretest",
+			"problemMatcher": [],
+			"label": "npm: pretest",
+			"detail": "npm run compile && npm run lint"
 		}
 	]
 }
